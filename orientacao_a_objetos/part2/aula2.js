@@ -1,4 +1,4 @@
-class Spaceship{
+class Spaceship {
   constructor(name){
     this.name = name;
     this.velocity = 0;
