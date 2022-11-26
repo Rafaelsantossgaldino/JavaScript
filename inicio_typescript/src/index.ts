@@ -1,4 +1,4 @@
-const Matematica = require('./Matematica')
+import Matematica from './Matematica'
 
 let n1: number = 10
 let n2: number = 20
