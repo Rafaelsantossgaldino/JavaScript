@@ -1,4 +1,8 @@
-let nome: string = 'rafael';
-let idade: number = 27;
+const Matematica = require('./Matematica')
 
-console.log(`Seu nome é: ${nome} sua idade é: ${idade}`);
+let n1: number = 10
+let n2: number = 20
+
+console.log(`SOMA: ${Matematica.somar(n1, n2)}`)
+console.log(`SUBTRAÇÃO: ${Matematica.subtrair(n1, n2)}`)
+console.log(`MULTIPLICAÇÃO: ${Matematica.multiplicar(n1, n2)}`)
