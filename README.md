@@ -21,4 +21,4 @@ $ tsc -w
 
 
 # executar o projeto
-$ nodemon src/index.ts
+$ npm run start-dev
