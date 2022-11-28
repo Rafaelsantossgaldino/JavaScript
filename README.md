@@ -13,11 +13,12 @@ $ tsc --init
 ![image](https://user-images.githubusercontent.com/39067506/204067785-40706ffe-76c8-4a27-8590-13642cb8aba3.png)
 
 
-# comnado para monitoramento
+# comnado para monitoramento(*opcional*)
 $ tsc -w
 
 # Adicionar atalhao para execução do projeto
-![image](https://user-images.githubusercontent.com/39067506/204067753-6645da98-65b0-4da3-89cc-3ebc9e780d5f.png)
+![image](https://user-images.githubusercontent.com/39067506/204401866-38cbb4a4-7131-4ae4-8437-197aa49a2ec1.png)
+
 
 # executar o projeto
-$ npm start
+$ nodemon src/index.ts
