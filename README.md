@@ -17,8 +17,7 @@ $ tsc --init
 $ tsc -w
 
 # Adicionar atalhao para execução do projeto
-![image](https://user-images.githubusercontent.com/39067506/204401866-38cbb4a4-7131-4ae4-8437-197aa49a2ec1.png)
-
+![image](https://user-images.githubusercontent.com/39067506/204403682-25c3cd4e-6bda-4d09-890f-e24d165f7156.png)
 
 # executar o projeto
 $ npm run start-dev
