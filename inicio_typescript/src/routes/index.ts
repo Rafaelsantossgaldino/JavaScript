@@ -28,7 +28,7 @@ router.get('/', (req: Request, res: Response) => {
 })
 
 router.get('/contatos', (req: Request, res: Response) => {
-  res.send('Pagina de contatos')
+  res.render('contato')
 })
 
 router.get('/noticias', (req: Request, res: Response) => {
@@ -36,7 +36,7 @@ router.get('/noticias', (req: Request, res: Response) => {
 })
 
 router.get('/sobre', (req: Request, res: Response) => {
-  res.send('Pagina de sobre')
+  res.render('sobre')
 })
 
 export default router
