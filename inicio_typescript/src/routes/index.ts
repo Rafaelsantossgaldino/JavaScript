@@ -14,7 +14,16 @@ router.get('/', (req: Request, res: Response) => {
     name: 'Rafael',
     lastName: 'Galdino',
     age: 27,
-    showOld
+    showOld, 
+    products: [
+      {  title: 'produto x', price: 10},
+      {  title: 'produto y', price: 50},
+      {  title: 'produto z', price: 100}
+    ],
+    frasesDoDia: [
+      'Alguma coisa legal',
+      'Outra coisa legal'
+    ]
   })
 })
 
