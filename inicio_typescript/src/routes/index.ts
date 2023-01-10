@@ -10,7 +10,7 @@ router.get('/', (req: Request, res: Response) => {
     showOld = true
   }
   
-  res.render('home', {
+  res.render('pages/home', {
     name: 'Rafael',
     lastName: 'Galdino',
     age: 27,
@@ -28,7 +28,7 @@ router.get('/', (req: Request, res: Response) => {
 })
 
 router.get('/contatos', (req: Request, res: Response) => {
-  res.render('contato')
+  res.render('pages/contato')
 })
 
 router.get('/noticias', (req: Request, res: Response) => {
@@ -36,7 +36,7 @@ router.get('/noticias', (req: Request, res: Response) => {
 })
 
 router.get('/sobre', (req: Request, res: Response) => {
-  res.render('sobre')
+  res.render('pages/sobre')
 })
 
 export default router
